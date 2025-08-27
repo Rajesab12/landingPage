@@ -519,9 +519,9 @@ a:hover {
 }
 
 .feature-icon img {
-    width: 40px;
-    height: 40px;
-    filter: brightness(0) invert(1);
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
 }
 
 .feature-card h3 {
@@ -761,13 +761,14 @@ a:hover {
     gap: var(--space-4);
 }
 
-.social-links a {
-    font-size: var(--font-size-xl);
+.social-links a img {
+    width: 24px;
+    height: 24px;
     transition: transform var(--transition-base);
 }
 
-.social-links a:hover {
-    transform: translateY(-2px);
+.social-links a:hover img {
+    transform: scale(1.1);
 }
 
 .footer-bottom {
